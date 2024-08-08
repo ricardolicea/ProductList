@@ -1,0 +1,248 @@
+#root{
+  font-family: 'Red Hat Text', sans-serif;
+  display: flex;
+}
+
+#main{
+  display: block;
+  text-align: left;
+}
+
+#container{
+  display: flex;
+  justify-self: flex-start
+}
+
+.desserts {
+  border-color: transparent;
+  width: 70%;
+  margin: 0;
+  padding:0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.desserts li{
+  width: 32%;
+}
+.dessert{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.dessert .img {
+  width: 240px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.dessert .imgAdded {
+  width: 240px;
+  height: auto;
+  border-radius: 8px;
+  border: 2px;
+  border-style: solid;
+  border-color: hsl(14, 86%, 42%);
+}
+
+.addToCart{
+  
+  color: black;
+  
+  width: 100%;
+  text-align: center;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+ 
+  
+  
+}
+.addToCartBtn{
+  
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  width: 45%;
+  border-color: hsl(14, 86%, 42%);
+  border-radius: 16px;
+  border-width: 1px;
+  border-style: solid;
+  background-color: white;
+  position:relative;
+  bottom: 20px;
+}
+
+/* .addToCartBtnAdded{
+  background-color: hsl(14, 86%, 42%);
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  border-color: hsl(14, 86%, 42%);
+  border-radius: 16px;
+  border-width: 1px;
+  border-style: solid;
+  position:relative;
+  bottom: 20px;
+  font: white
+} */
+.addToCartAdded{
+  background-color: hsl(14, 86%, 42%);
+  border: none;
+  
+  width: 45%;
+  border-color: hsl(14, 86%, 42%);
+  border-radius: 16px;
+  border-width: 1px;
+  border-style: solid;
+  position:relative;
+  bottom: 20px;
+  color:white;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3px;
+}
+ .addToCartAdded button{
+  cursor:pointer;
+  background-color: transparent;
+  border-style: solid;
+  border-color: white;
+  border-radius: 100%;
+  border-width: 1px;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 15px;
+  height: 15px;
+  
+} 
+
+/* .logosAdded{
+  width: 10px;
+  height: auto;
+} */
+
+.category{
+  color:grey;
+  font-size: 12px;
+}
+.name {
+  color:hsl(14, 65%, 9%);
+  font-size: 16px;;
+}
+.price {
+  color:  hsl(14, 86%, 42%);
+  font-size: 16px;
+}
+
+
+
+
+.cart{
+  width: 30%;
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.cart h2{
+  color:  hsl(14, 86%, 42%);
+  padding: 0;
+}
+.cartList ul{
+  list-style: none;
+  padding: 0;
+}
+.cartItem{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.cartItem button{
+  background-color: transparent;
+  border:none;
+  cursor: pointer;
+}
+.item{
+  width: 70%;
+}
+.item h3{
+  margin: 0;
+   font-size: 16px;
+  width: 100%;
+}
+
+.priceInfo{
+  display:flex;
+  gap: 10px;
+  
+}
+.quantity{
+  color:  hsl(14, 86%, 42%);
+}
+.unitPrice{
+  color: grey;
+}
+.logos{
+  width: 20px;
+  height: auto;
+}
+
+#totalInfo{
+  display: flex;
+  justify-content: space-between;
+}
+#totalPrice{
+  color: black;
+  margin: 0;
+}
+#carbonNeutral{
+  display: flex;
+  justify-content: center;
+}
+#legend{
+  text-align: center;
+}
+#confirmOrder{
+  background-color:  hsl(14, 86%, 42%);
+  border-radius: 20px;
+  border-color: transparent;
+  color:white;
+  align-self: center;
+  width: 100%;
+  padding: 10px;
+  cursor: pointer;
+}
+
+ .checkout{
+  
+  width: 30%;
+  font-family: 'Red Hat Text', sans-serif;
+  border-radius: 8px;
+  border-color: hsl(14, 86%, 42%);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+
+}/*
+
+.modal.checkout button{
+  background-color:  hsl(14, 86%, 42%);
+  border-radius: 20px;
+  border-color: transparent;
+  color:white;
+  align-self: center;
+  padding: 10px;
+} */
+
+.modal::backdrop {
+  background-color: rgba(0, 0, 0, 0.55);
+}
