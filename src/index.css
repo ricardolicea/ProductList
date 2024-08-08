@@ -221,18 +221,18 @@
   cursor: pointer;
 }
 
- .checkout{
+  .checkout{
   
   width: 30%;
   font-family: 'Red Hat Text', sans-serif;
   border-radius: 8px;
   border-color: hsl(14, 86%, 42%);
-  display: flex;
+  display: block;
   justify-content: center;
   flex-direction: column;
   text-align: center;
 
-}/*
+}
 
 .modal.checkout button{
   background-color:  hsl(14, 86%, 42%);
@@ -241,7 +241,7 @@
   color:white;
   align-self: center;
   padding: 10px;
-} */
+}   
 
 .modal::backdrop {
   background-color: rgba(0, 0, 0, 0.55);
